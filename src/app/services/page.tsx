@@ -1,9 +1,9 @@
 export const metadata = {
-    title: "Layanan Pemboran Sumur FERDIBOR - Solusi Air Bersih Komprehensif",
+    title: "Layanan - Solusi Air Bersih Komprehensif",
     description: "Jelajahi layanan pemboran sumur komprehensif FERDIBOR. Dari sumur rumah tangga hingga komersial, perawatan rutin, dan konsultasi ahli. Solusi air bersih terpercaya untuk semua kebutuhan Anda.",
     keywords: "layanan pemboran sumur, sumur rumah tangga, sumur komersial, perawatan sumur, konsultasi air bersih, layanan sumur bor profesional Jakarta",
     openGraph: {
-        title: "Layanan Pemboran Sumur FERDIBOR - Solusi Air Bersih Komprehensif",
+        title: "Layanan - Solusi Air Bersih Komprehensif",
         description: "Jelajahi layanan pemboran sumur komprehensif FERDIBOR. Dari sumur rumah tangga hingga komersial, perawatan rutin, dan konsultasi ahli.",
         url: "https://ferdibor.com/services",
         siteName: "FERDIBOR",
@@ -12,7 +12,7 @@ export const metadata = {
                 url: "/og-services.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Layanan Pemboran Sumur FERDIBOR",
+                alt: "Layanan",
             },
         ],
         locale: "id_ID",
@@ -20,7 +20,7 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Layanan Pemboran Sumur FERDIBOR - Solusi Air Bersih Komprehensif",
+        title: "Layanan - Solusi Air Bersih Komprehensif",
         description: "Jelajahi layanan pemboran sumur komprehensif FERDIBOR. Dari sumur rumah tangga hingga komersial, perawatan rutin, dan konsultasi ahli.",
         images: ["/og-services.jpg"],
     },
@@ -30,7 +30,7 @@ export const metadata = {
     structuredData: {
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "Layanan Pemboran Sumur FERDIBOR",
+        "name": "Layanan",
         "description": "Layanan pemboran sumur profesional dan komprehensif",
         "url": "https://ferdibor.com/services",
         "provider": {

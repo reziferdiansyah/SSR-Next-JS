@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "FERDIBOR - Layanan Pemboran Sumur Profesional | Solusi Air Bersih Terpercaya",
+  title: "Home - Layanan Pemboran Sumur Profesional | Solusi Air Bersih Terpercaya",
   description: "Layanan pemboran sumur profesional untuk solusi air bersih. Kami menyediakan layanan pemboran yang handal, efisien untuk kebutuhan residensial, komersial, dan pertanian. Dapatkan penawaran gratis hari ini!",
   keywords: "pemboran sumur Jakarta, layanan sumur bor profesional, sumur air bersih, pemboran sumur rumah, sumur komersial, perawatan sumur, konsultasi air gratis",
   openGraph: {

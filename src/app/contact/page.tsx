@@ -1,5 +1,5 @@
 export const metadata = {
-    title: "Hubungi FERDIBOR - Konsultasi Pemboran Sumur Gratis | Penawaran Harga",
+    title: "Kontak - Konsultasi Pemboran Sumur Gratis | Penawaran Harga",
     description: "Hubungi FERDIBOR untuk layanan pemboran sumur profesional. Dapatkan konsultasi gratis, penawaran harga, dan informasi lengkap tentang solusi air bersih untuk properti Anda. Tim ahli siap membantu!",
     keywords: "hubungi FERDIBOR, konsultasi pemboran sumur gratis, penawaran harga sumur bor, kontak layanan sumur, informasi pemboran sumur Jakarta, solusi air bersih",
     openGraph: {

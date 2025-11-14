@@ -1,9 +1,9 @@
 export const metadata = {
-    title: "Tentang FERDIBOR - Ahli Pemboran Sumur Terpercaya | Tim Profesional",
+    title: "Tentang - Ahli Pemboran Sumur Terpercaya | Tim Profesional",
     description: "Pelajari tentang keahlian kami dalam pemboran sumur, komitmen kami terhadap kualitas, dan dedikasi kami untuk menyediakan solusi air bersih. Tim ahli dengan pengalaman bertahun-tahun dalam layanan pemboran profesional.",
     keywords: "tentang FERDIBOR, ahli pemboran sumur, tim pemboran profesional, pengalaman pemboran sumur, komitmen kualitas sumur bor, solusi air bersih",
     openGraph: {
-        title: "Tentang FERDIBOR - Ahli Pemboran Sumur Terpercaya",
+        title: "Tentang  - Ahli Pemboran Sumur Terpercaya",
         description: "Pelajari tentang keahlian kami dalam pemboran sumur, komitmen kami terhadap kualitas, dan dedikasi kami untuk menyediakan solusi air bersih. Tim ahli dengan pengalaman bertahun-tahun.",
         url: "https://ferdibor.com/about",
         siteName: "FERDIBOR",
