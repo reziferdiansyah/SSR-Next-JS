@@ -1,3 +1,54 @@
+export const metadata = {
+    title: "Testimoni Klien SumurBor Pro - Cerita Sukses Pemboran Sumur | Ulasan Pelanggan",
+    description: "Baca testimoni klien puas SumurBor Pro. Lihat bagaimana kami membantu ribuan pelanggan mendapatkan solusi air bersih dengan layanan pemboran sumur profesional dan terpercaya. Pengalaman nyata dari pelanggan kami.",
+    keywords: "testimoni SumurBor Pro, ulasan pelanggan sumur bor, cerita sukses pemboran sumur, klien puas layanan sumur, review pemboran profesional, pengalaman pelanggan air bersih",
+    openGraph: {
+        title: "Testimoni Klien SumurBor Pro - Cerita Sukses Pemboran Sumur",
+        description: "Baca testimoni klien puas SumurBor Pro. Lihat bagaimana kami membantu ribuan pelanggan mendapatkan solusi air bersih dengan layanan pemboran sumur profesional dan terpercaya.",
+        url: "https://sumurborpro.com/testimonials",
+        siteName: "SumurBor Pro",
+        images: [
+            {
+                url: "/og-testimonials.jpg",
+                width: 1200,
+                height: 630,
+                alt: "Testimoni Klien SumurBor Pro - Cerita Sukses",
+            },
+        ],
+        locale: "id_ID",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Testimoni Klien SumurBor Pro - Cerita Sukses Pemboran Sumur",
+        description: "Baca testimoni klien puas SumurBor Pro. Lihat bagaimana kami membantu ribuan pelanggan mendapatkan solusi air bersih dengan layanan pemboran sumur profesional.",
+        images: ["/og-testimonials.jpg"],
+    },
+    alternates: {
+        canonical: "https://sumurborpro.com/testimonials",
+    },
+    structuredData: {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "name": "Testimoni Klien SumurBor Pro",
+        "description": "Koleksi testimoni dan ulasan dari klien puas SumurBor Pro",
+        "url": "https://sumurborpro.com/testimonials",
+        "author": {
+            "@type": "Organization",
+            "name": "SumurBor Pro"
+        },
+        "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "SumurBor Pro"
+        }
+    }
+};
+
 export default function Testimonials() {
     const testimonials = [
         {

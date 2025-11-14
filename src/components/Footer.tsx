@@ -59,21 +59,27 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li>
+                                <Link href="/services" className="text-gray-300 hover:text-white hover:translate-x-2 transition-all duration-300 flex items-center group">
+                                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-green-500 transition-colors"></span>
+                                    Layanan Kami
+                                </Link>
+                            </li>
+                            <li>
                                 <Link href="/about" className="text-gray-300 hover:text-white hover:translate-x-2 transition-all duration-300 flex items-center group">
                                     <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-green-500 transition-colors"></span>
                                     Tentang Kami
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/contact" className="text-gray-300 hover:text-white hover:translate-x-2 transition-all duration-300 flex items-center group">
-                                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-green-500 transition-colors"></span>
-                                    Hubungi Kami
-                                </Link>
-                            </li>
-                            <li>
                                 <Link href="/testimonials" className="text-gray-300 hover:text-white hover:translate-x-2 transition-all duration-300 flex items-center group">
                                     <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-green-500 transition-colors"></span>
                                     Testimoni
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/contact" className="text-gray-300 hover:text-white hover:translate-x-2 transition-all duration-300 flex items-center group">
+                                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:bg-green-500 transition-colors"></span>
+                                    Hubungi Kami
                                 </Link>
                             </li>
                         </ul>
@@ -152,26 +158,6 @@ export default function Footer() {
                     </div>
                 </div>
 
-                {/* Newsletter Signup */}
-                <div className="bg-gradient-to-r from-blue-800/50 to-green-800/50 rounded-2xl p-8 mb-8 backdrop-blur-sm border border-blue-700/30">
-                    <div className="text-center">
-                        <h4 className="text-2xl font-bold mb-4 text-white">Dapatkan Update Terbaru</h4>
-                        <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-                            Berlangganan newsletter kami untuk mendapatkan tips perawatan sumur, promo spesial, dan informasi terbaru tentang layanan kami.
-                        </p>
-                        <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-                            <input
-                                type="email"
-                                placeholder="Masukkan email Anda"
-                                className="flex-1 px-4 py-3 bg-white/10 border border-blue-500/30 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent backdrop-blur-sm"
-                            />
-                            <button className="bg-gradient-to-r from-blue-600 to-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-300">
-                                Berlangganan
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
                 {/* Bottom Section */}
                 <div className="border-t border-gray-700 pt-8">
                     <div className="flex flex-col md:flex-row justify-between items-center">
@@ -179,9 +165,9 @@ export default function Footer() {
                             &copy; 2024 SumurBor Pro. Seluruh hak cipta dilindungi.
                         </p>
                         <div className="flex flex-wrap justify-center md:justify-end gap-6 text-sm">
-                            <a href="#" className="text-gray-400 hover:text-white transition-colors">Kebijakan Privasi</a>
-                            <a href="#" className="text-gray-400 hover:text-white transition-colors">Syarat & Ketentuan</a>
-                            <a href="#" className="text-gray-400 hover:text-white transition-colors">FAQ</a>
+                            <span className="text-gray-400">Kebijakan Privasi</span>
+                            <span className="text-gray-400">Syarat & Ketentuan</span>
+                            <span className="text-gray-400">FAQ</span>
                         </div>
                     </div>
                 </div>

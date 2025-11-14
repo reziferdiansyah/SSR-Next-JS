@@ -1,3 +1,61 @@
+export const metadata = {
+  title: "SumurBor Pro - Layanan Pemboran Sumur Profesional | Solusi Air Bersih Terpercaya",
+  description: "Layanan pemboran sumur profesional untuk solusi air bersih. Kami menyediakan layanan pemboran yang handal, efisien untuk kebutuhan residensial, komersial, dan pertanian. Dapatkan penawaran gratis hari ini!",
+  keywords: "pemboran sumur Jakarta, layanan sumur bor profesional, sumur air bersih, pemboran sumur rumah, sumur komersial, perawatan sumur, konsultasi air gratis",
+  openGraph: {
+    title: "SumurBor Pro - Layanan Pemboran Sumur Profesional",
+    description: "Layanan pemboran sumur profesional untuk solusi air bersih. Kami menyediakan layanan pemboran yang handal, efisien untuk kebutuhan residensial, komersial, dan pertanian.",
+    url: "https://sumurborpro.com",
+    siteName: "SumurBor Pro",
+    images: [
+      {
+        url: "/og-home.jpg",
+        width: 1200,
+        height: 630,
+        alt: "SumurBor Pro - Layanan Pemboran Sumur Profesional",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SumurBor Pro - Layanan Pemboran Sumur Profesional",
+    description: "Layanan pemboran sumur profesional untuk solusi air bersih. Kami menyediakan layanan pemboran yang handal, efisien untuk kebutuhan residensial, komersial, dan pertanian.",
+    images: ["/og-home.jpg"],
+  },
+  alternates: {
+    canonical: "https://sumurborpro.com",
+  },
+  structuredData: {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SumurBor Pro",
+    "url": "https://sumurborpro.com",
+    "logo": "https://sumurborpro.com/logo.png",
+    "description": "Layanan pemboran sumur profesional untuk solusi air bersih",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jl. Sumur Bor No. 123",
+      "addressLocality": "Jakarta",
+      "addressRegion": "DKI Jakarta",
+      "postalCode": "12345",
+      "addressCountry": "ID"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+62-21-555-0123",
+      "contactType": "customer service",
+      "availableLanguage": "Indonesian"
+    },
+    "sameAs": [
+      "https://www.facebook.com/sumurborpro",
+      "https://www.instagram.com/sumurborpro",
+      "https://www.linkedin.com/company/sumurborpro"
+    ]
+  }
+};
+
 export default function Home() {
   return (
     <div className="bg-gradient-to-br from-blue-50 to-purple-50 min-h-screen">

@@ -17,6 +17,60 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "SumurBor Pro - Layanan Pemboran Sumur Profesional",
   description: "Layanan pemboran sumur ahli untuk kebutuhan residensial, komersial, dan industri. Solusi pemboran berkualitas dengan peralatan modern.",
+  keywords: "pemboran sumur, sumur bor, layanan sumur, air bersih, pemboran profesional, sumur rumah, sumur komersial, perawatan sumur",
+  authors: [{ name: "SumurBor Pro" }],
+  creator: "SumurBor Pro",
+  publisher: "SumurBor Pro",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://sumurborpro.com'),
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: "SumurBor Pro - Layanan Pemboran Sumur Profesional",
+    description: "Layanan pemboran sumur ahli untuk kebutuhan residensial, komersial, dan industri. Solusi pemboran berkualitas dengan peralatan modern.",
+    url: "https://sumurborpro.com",
+    siteName: "SumurBor Pro",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "SumurBor Pro - Layanan Pemboran Sumur Profesional",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SumurBor Pro - Layanan Pemboran Sumur Profesional",
+    description: "Layanan pemboran sumur ahli untuk kebutuhan residensial, komersial, dan industri. Solusi pemboran berkualitas dengan peralatan modern.",
+    images: ["/og-image.jpg"],
+    creator: "@sumurborpro",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'your-google-site-verification-code',
+    yandex: 'your-yandex-verification-code',
+    yahoo: 'your-yahoo-verification-code',
+  },
 };
 
 export default function RootLayout({

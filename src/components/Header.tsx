@@ -14,9 +14,10 @@ export default function Header() {
                 </Link>
                 <nav className="hidden md:flex space-x-8">
                     <Link href="/" className="hover:text-green-200 transition-colors">Beranda</Link>
+                    <Link href="/services" className="hover:text-green-200 transition-colors">Layanan</Link>
                     <Link href="/about" className="hover:text-green-200 transition-colors">Tentang</Link>
-                    <Link href="/contact" className="hover:text-green-200 transition-colors">Kontak</Link>
                     <Link href="/testimonials" className="hover:text-green-200 transition-colors">Testimoni</Link>
+                    <Link href="/contact" className="hover:text-green-200 transition-colors">Kontak</Link>
                 </nav>
                 <div className="md:hidden">
                     <button
@@ -41,6 +42,13 @@ export default function Header() {
                             Beranda
                         </Link>
                         <Link
+                            href="/services"
+                            className="hover:text-green-200 transition-colors"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            Layanan
+                        </Link>
+                        <Link
                             href="/about"
                             className="hover:text-green-200 transition-colors"
                             onClick={() => setIsOpen(false)}
@@ -48,18 +56,18 @@ export default function Header() {
                             Tentang
                         </Link>
                         <Link
-                            href="/contact"
-                            className="hover:text-green-200 transition-colors"
-                            onClick={() => setIsOpen(false)}
-                        >
-                            Kontak
-                        </Link>
-                        <Link
                             href="/testimonials"
                             className="hover:text-green-200 transition-colors"
                             onClick={() => setIsOpen(false)}
                         >
                             Testimoni
+                        </Link>
+                        <Link
+                            href="/contact"
+                            className="hover:text-green-200 transition-colors"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            Kontak
                         </Link>
                     </nav>
                 </div>
