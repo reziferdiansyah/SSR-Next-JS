@@ -12,7 +12,7 @@ export default function Footer() {
                 <div className="absolute bottom-10 right-1/3 w-16 h-16 bg-blue-200 rounded-full"></div>
             </div>
 
-            <div className="container mx-auto px-4 py-16 relative z-10">
+            <div className="container mx-auto px-4 py-12 relative z-10">
                 {/* Main Footer Content */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
                     {/* Company Info */}
@@ -27,7 +27,7 @@ export default function Footer() {
                                     className="rounded-lg"
                                 />
                             </div>
-                            <span className="text-3xl font-bold ml-2 text-[#309dc8]">FERDI</span>
+                            <span className="text-3xl font-bold ml-2 text-[#154367]">FERDI</span>
                             <span className="text-3xl font-bold text-[#cd9f59]">BOR</span>
                         </div>
                         <p className="text-black mb-6 leading-relaxed">

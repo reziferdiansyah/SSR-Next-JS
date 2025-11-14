@@ -21,7 +21,7 @@ export default function Header() {
                             height={70}
                         />
                     </div>
-                    <span className="text-3xl font-bold ml-2 text-[#309dc8]">FERDI</span>
+                    <span className="text-3xl font-bold ml-2 text-[#154367]">FERDI</span>
                     <span className="text-3xl font-bold text-[#cd9f59]">BOR</span>
                 </Link>
                 <nav className="hidden md:flex space-x-8">
