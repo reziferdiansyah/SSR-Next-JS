@@ -56,10 +56,15 @@ export const metadata = {
   }
 };
 
+import Carousel from '@/components/Carousel';
+
 export default function Home() {
   return (
     <div className="bg-gradient-to-br from-blue-50 to-purple-50 min-h-screen text-black">
-      Home Page
+      <div >
+        {/* Image Carousel Section */}
+        <Carousel />
+      </div>
     </div>
   );
 }
