@@ -1,18 +1,18 @@
 export const metadata = {
-    title: "Layanan Pemboran Sumur SumurBor Pro - Solusi Air Bersih Komprehensif",
-    description: "Jelajahi layanan pemboran sumur komprehensif SumurBor Pro. Dari sumur rumah tangga hingga komersial, perawatan rutin, dan konsultasi ahli. Solusi air bersih terpercaya untuk semua kebutuhan Anda.",
+    title: "Layanan Pemboran Sumur FERDIBOR - Solusi Air Bersih Komprehensif",
+    description: "Jelajahi layanan pemboran sumur komprehensif FERDIBOR. Dari sumur rumah tangga hingga komersial, perawatan rutin, dan konsultasi ahli. Solusi air bersih terpercaya untuk semua kebutuhan Anda.",
     keywords: "layanan pemboran sumur, sumur rumah tangga, sumur komersial, perawatan sumur, konsultasi air bersih, layanan sumur bor profesional Jakarta",
     openGraph: {
-        title: "Layanan Pemboran Sumur SumurBor Pro - Solusi Air Bersih Komprehensif",
-        description: "Jelajahi layanan pemboran sumur komprehensif SumurBor Pro. Dari sumur rumah tangga hingga komersial, perawatan rutin, dan konsultasi ahli.",
-        url: "https://sumurborpro.com/services",
-        siteName: "SumurBor Pro",
+        title: "Layanan Pemboran Sumur FERDIBOR - Solusi Air Bersih Komprehensif",
+        description: "Jelajahi layanan pemboran sumur komprehensif FERDIBOR. Dari sumur rumah tangga hingga komersial, perawatan rutin, dan konsultasi ahli.",
+        url: "https://ferdibor.com/services",
+        siteName: "FERDIBOR",
         images: [
             {
                 url: "/og-services.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Layanan Pemboran Sumur SumurBor Pro",
+                alt: "Layanan Pemboran Sumur FERDIBOR",
             },
         ],
         locale: "id_ID",
@@ -20,22 +20,22 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Layanan Pemboran Sumur SumurBor Pro - Solusi Air Bersih Komprehensif",
-        description: "Jelajahi layanan pemboran sumur komprehensif SumurBor Pro. Dari sumur rumah tangga hingga komersial, perawatan rutin, dan konsultasi ahli.",
+        title: "Layanan Pemboran Sumur FERDIBOR - Solusi Air Bersih Komprehensif",
+        description: "Jelajahi layanan pemboran sumur komprehensif FERDIBOR. Dari sumur rumah tangga hingga komersial, perawatan rutin, dan konsultasi ahli.",
         images: ["/og-services.jpg"],
     },
     alternates: {
-        canonical: "https://sumurborpro.com/services",
+        canonical: "https://ferdibor.com/services",
     },
     structuredData: {
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "Layanan Pemboran Sumur SumurBor Pro",
+        "name": "Layanan Pemboran Sumur FERDIBOR",
         "description": "Layanan pemboran sumur profesional dan komprehensif",
-        "url": "https://sumurborpro.com/services",
+        "url": "https://ferdibor.com/services",
         "provider": {
             "@type": "Organization",
-            "name": "SumurBor Pro"
+            "name": "FERDIBOR"
         },
         "serviceType": "Well Drilling Services",
         "areaServed": {

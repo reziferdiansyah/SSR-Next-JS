@@ -1,18 +1,18 @@
 export const metadata = {
-    title: "Hubungi SumurBor Pro - Konsultasi Pemboran Sumur Gratis | Penawaran Harga",
-    description: "Hubungi SumurBor Pro untuk layanan pemboran sumur profesional. Dapatkan konsultasi gratis, penawaran harga, dan informasi lengkap tentang solusi air bersih untuk properti Anda. Tim ahli siap membantu!",
-    keywords: "hubungi SumurBor Pro, konsultasi pemboran sumur gratis, penawaran harga sumur bor, kontak layanan sumur, informasi pemboran sumur Jakarta, solusi air bersih",
+    title: "Hubungi FERDIBOR - Konsultasi Pemboran Sumur Gratis | Penawaran Harga",
+    description: "Hubungi FERDIBOR untuk layanan pemboran sumur profesional. Dapatkan konsultasi gratis, penawaran harga, dan informasi lengkap tentang solusi air bersih untuk properti Anda. Tim ahli siap membantu!",
+    keywords: "hubungi FERDIBOR, konsultasi pemboran sumur gratis, penawaran harga sumur bor, kontak layanan sumur, informasi pemboran sumur Jakarta, solusi air bersih",
     openGraph: {
-        title: "Hubungi SumurBor Pro - Konsultasi Pemboran Sumur Gratis",
-        description: "Hubungi SumurBor Pro untuk layanan pemboran sumur profesional. Dapatkan konsultasi gratis, penawaran harga, dan informasi lengkap tentang solusi air bersih untuk properti Anda.",
-        url: "https://sumurborpro.com/contact",
-        siteName: "SumurBor Pro",
+        title: "Hubungi FERDIBOR - Konsultasi Pemboran Sumur Gratis",
+        description: "Hubungi FERDIBOR untuk layanan pemboran sumur profesional. Dapatkan konsultasi gratis, penawaran harga, dan informasi lengkap tentang solusi air bersih untuk properti Anda.",
+        url: "https://ferdibor.com/contact",
+        siteName: "FERDIBOR",
         images: [
             {
                 url: "/og-contact.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Hubungi SumurBor Pro - Konsultasi Gratis",
+                alt: "Hubungi FERDIBOR - Konsultasi Gratis",
             },
         ],
         locale: "id_ID",
@@ -20,22 +20,22 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Hubungi SumurBor Pro - Konsultasi Pemboran Sumur Gratis",
-        description: "Hubungi SumurBor Pro untuk layanan pemboran sumur profesional. Dapatkan konsultasi gratis, penawaran harga, dan informasi lengkap tentang solusi air bersih.",
+        title: "Hubungi FERDIBOR - Konsultasi Pemboran Sumur Gratis",
+        description: "Hubungi FERDIBOR untuk layanan pemboran sumur profesional. Dapatkan konsultasi gratis, penawaran harga, dan informasi lengkap tentang solusi air bersih.",
         images: ["/og-contact.jpg"],
     },
     alternates: {
-        canonical: "https://sumurborpro.com/contact",
+        canonical: "https://ferdibor.com/contact",
     },
     structuredData: {
         "@context": "https://schema.org",
         "@type": "ContactPage",
-        "name": "Hubungi SumurBor Pro",
+        "name": "Hubungi FERDIBOR",
         "description": "Halaman kontak untuk layanan pemboran sumur profesional",
-        "url": "https://sumurborpro.com/contact",
+        "url": "https://ferdibor.com/contact",
         "mainEntity": {
             "@type": "Organization",
-            "name": "SumurBor Pro",
+            "name": "FERDIBOR",
             "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "+62-21-555-0123",
@@ -63,7 +63,7 @@ export default function Contact() {
                 {/* Hero Section */}
                 <section className="text-center mb-16">
                     <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
-                        Hubungi SumurBor Pro
+                        Hubungi FERDIBOR
                     </h1>
                     <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
                         Siap mendapatkan solusi air bersih untuk properti Anda? Hubungi kami hari ini untuk layanan pemboran sumur profesional.
@@ -161,7 +161,7 @@ export default function Contact() {
                                         </div>
                                         <div>
                                             <p className="font-semibold text-gray-900">Email</p>
-                                            <p className="text-gray-600">info@sumurborpro.com</p>
+                                            <p className="text-gray-600">info@ferdibor.com</p>
                                         </div>
                                     </div>
                                     <div className="flex items-center">

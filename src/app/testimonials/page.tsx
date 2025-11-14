@@ -1,18 +1,18 @@
 export const metadata = {
-    title: "Testimoni Klien SumurBor Pro - Cerita Sukses Pemboran Sumur | Ulasan Pelanggan",
-    description: "Baca testimoni klien puas SumurBor Pro. Lihat bagaimana kami membantu ribuan pelanggan mendapatkan solusi air bersih dengan layanan pemboran sumur profesional dan terpercaya. Pengalaman nyata dari pelanggan kami.",
-    keywords: "testimoni SumurBor Pro, ulasan pelanggan sumur bor, cerita sukses pemboran sumur, klien puas layanan sumur, review pemboran profesional, pengalaman pelanggan air bersih",
+    title: "Testimoni Klien FERDIBOR - Cerita Sukses Pemboran Sumur | Ulasan Pelanggan",
+    description: "Baca testimoni klien puas FERDIBOR. Lihat bagaimana kami membantu ribuan pelanggan mendapatkan solusi air bersih dengan layanan pemboran sumur profesional dan terpercaya. Pengalaman nyata dari pelanggan kami.",
+    keywords: "testimoni FERDIBOR, ulasan pelanggan sumur bor, cerita sukses pemboran sumur, klien puas layanan sumur, review pemboran profesional, pengalaman pelanggan air bersih",
     openGraph: {
-        title: "Testimoni Klien SumurBor Pro - Cerita Sukses Pemboran Sumur",
-        description: "Baca testimoni klien puas SumurBor Pro. Lihat bagaimana kami membantu ribuan pelanggan mendapatkan solusi air bersih dengan layanan pemboran sumur profesional dan terpercaya.",
-        url: "https://sumurborpro.com/testimonials",
-        siteName: "SumurBor Pro",
+        title: "Testimoni Klien FERDIBOR - Cerita Sukses Pemboran Sumur",
+        description: "Baca testimoni klien puas FERDIBOR. Lihat bagaimana kami membantu ribuan pelanggan mendapatkan solusi air bersih dengan layanan pemboran sumur profesional dan terpercaya.",
+        url: "https://ferdibor.com/testimonials",
+        siteName: "FERDIBOR",
         images: [
             {
                 url: "/og-testimonials.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Testimoni Klien SumurBor Pro - Cerita Sukses",
+                alt: "Testimoni Klien FERDIBOR - Cerita Sukses",
             },
         ],
         locale: "id_ID",
@@ -20,22 +20,22 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Testimoni Klien SumurBor Pro - Cerita Sukses Pemboran Sumur",
-        description: "Baca testimoni klien puas SumurBor Pro. Lihat bagaimana kami membantu ribuan pelanggan mendapatkan solusi air bersih dengan layanan pemboran sumur profesional.",
+        title: "Testimoni Klien FERDIBOR - Cerita Sukses Pemboran Sumur",
+        description: "Baca testimoni klien puas FERDIBOR. Lihat bagaimana kami membantu ribuan pelanggan mendapatkan solusi air bersih dengan layanan pemboran sumur profesional.",
         images: ["/og-testimonials.jpg"],
     },
     alternates: {
-        canonical: "https://sumurborpro.com/testimonials",
+        canonical: "https://ferdibor.com/testimonials",
     },
     structuredData: {
         "@context": "https://schema.org",
         "@type": "Review",
-        "name": "Testimoni Klien SumurBor Pro",
-        "description": "Koleksi testimoni dan ulasan dari klien puas SumurBor Pro",
-        "url": "https://sumurborpro.com/testimonials",
+        "name": "Testimoni Klien FERDIBOR",
+        "description": "Koleksi testimoni dan ulasan dari klien puas FERDIBOR",
+        "url": "https://ferdibor.com/testimonials",
         "author": {
             "@type": "Organization",
-            "name": "SumurBor Pro"
+            "name": "FERDIBOR"
         },
         "reviewRating": {
             "@type": "Rating",
@@ -44,7 +44,7 @@ export const metadata = {
         },
         "publisher": {
             "@type": "Organization",
-            "name": "SumurBor Pro"
+            "name": "FERDIBOR"
         }
     }
 };
@@ -54,14 +54,14 @@ export default function Testimonials() {
         {
             name: "Sari Wijaya",
             position: "CEO, TechStart Indonesia",
-            content: "SumurBor Pro mengubah kehadiran online kami secara menyeluruh. Perhatian mereka terhadap detail dan pendekatan inovatif menghasilkan peningkatan keterlibatan pengguna sebesar 300%. Sangat direkomendasikan!",
+            content: "FERDIBOR mengubah kehadiran online kami secara menyeluruh. Perhatian mereka terhadap detail dan pendekatan inovatif menghasilkan peningkatan keterlibatan pengguna sebesar 300%. Sangat direkomendasikan!",
             rating: 5,
             avatar: "SW"
         },
         {
             name: "Michael Tan",
             position: "Direktur Marketing, GrowthCo",
-            content: "Bekerja dengan SumurBor Pro adalah game-changer untuk brand kami. Mereka memberikan hasil di luar ekspektasi kami, menciptakan website yang sempurna menangkap visi kami dan mendorong konversi.",
+            content: "Bekerja dengan FERDIBOR adalah game-changer untuk brand kami. Mereka memberikan hasil di luar ekspektasi kami, menciptakan website yang sempurna menangkap visi kami dan mendorong konversi.",
             rating: 5,
             avatar: "MT"
         },
@@ -75,21 +75,21 @@ export default function Testimonials() {
         {
             name: "David Putra",
             position: "CTO, InnovateLabs",
-            content: "Proses pengembangan SumurBor Pro sangat lancar. Mereka terus memberi informasi kepada kami, memberikan hasil tepat waktu, dan produk akhir melebihi semua persyaratan teknis kami.",
+            content: "Proses pengembangan FERDIBOR sangat lancar. Mereka terus memberi informasi kepada kami, memberikan hasil tepat waktu, dan produk akhir melebihi semua persyaratan teknis kami.",
             rating: 5,
             avatar: "DP"
         },
         {
             name: "Lisa Permata",
             position: "Manager E-commerce, ShopSmart",
-            content: "Penjualan online kami berlipat ganda setelah SumurBor Pro mendesain ulang platform e-commerce kami. Pengalaman pengguna sekarang sangat lancar, dan pelanggan kami tidak bisa berhenti memujinya.",
+            content: "Penjualan online kami berlipat ganda setelah FERDIBOR mendesain ulang platform e-commerce kami. Pengalaman pengguna sekarang sangat lancar, dan pelanggan kami tidak bisa berhenti memujinya.",
             rating: 5,
             avatar: "LP"
         },
         {
             name: "Robert Kim",
             position: "Pendiri Startup, NextGen",
-            content: "Sebagai startup, kami membutuhkan partner yang memahami visi dan keterbatasan anggaran kami. SumurBor Pro memberikan produk kelas dunia yang membantu kami mendapatkan putaran pendanaan berikutnya.",
+            content: "Sebagai startup, kami membutuhkan partner yang memahami visi dan keterbatasan anggaran kami. FERDIBOR memberikan produk kelas dunia yang membantu kami mendapatkan putaran pendanaan berikutnya.",
             rating: 5,
             avatar: "RK"
         }
@@ -111,7 +111,7 @@ export default function Testimonials() {
                         Apa Kata Klien Kami
                     </h1>
                     <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-                        Jangan hanya percaya kata kami. Berikut adalah apa yang dikatakan klien puas kami tentang bekerja dengan SumurBor Pro.
+                        Jangan hanya percaya kata kami. Berikut adalah apa yang dikatakan klien puas kami tentang bekerja dengan FERDIBOR.
                     </p>
                 </section>
 
