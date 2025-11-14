@@ -21,7 +21,8 @@ export default function Header() {
                             height={70}
                         />
                     </div>
-                    <span className="text-3xl font-bold ml-4 bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">FERDIBOR</span>
+                    <span className="text-3xl font-bold ml-2 text-[#309dc8]">FERDI</span>
+                    <span className="text-3xl font-bold text-[#cd9f59]">BOR</span>
                 </Link>
                 <nav className="hidden md:flex space-x-8">
                     <Link href="/" className={`hover:text-blue-600 transition-colors font-medium ${pathname === '/' ? 'text-blue-500' : 'text-gray-700'}`}>Beranda</Link>
